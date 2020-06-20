@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AEGIS</title>
+  <title>AEGIS Webinar</title>
   
   <subtitle>Reading Group Webinar</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-20T09:01:57.426Z</updated>
+  <updated>2020-06-20T14:22:13.404Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
-    <name>AEGIS</name>
+    <name>AEGIS Webinar</name>
     
   </author>
   
@@ -21,7 +21,7 @@
     <link href="http://aegis-readers.github.io/2020/06/20/Bulletin/"/>
     <id>http://aegis-readers.github.io/2020/06/20/Bulletin/</id>
     <published>2020-06-20T04:00:34.647Z</published>
-    <updated>2020-06-20T09:01:57.426Z</updated>
+    <updated>2020-06-20T14:22:13.404Z</updated>
     
     <summary type="html">
     
@@ -42,6 +42,10 @@
     </summary>
     
     
+      <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
+    
+    
+      <category term="Plan" scheme="http://aegis-readers.github.io/tags/Plan/"/>
     
   </entry>
   
