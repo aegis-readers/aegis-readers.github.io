@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AEGIS</title>
+  
+  <subtitle>Reading Group Webinar</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://aegis-readers.github.io/"/>
+  <updated>2020-06-20T09:01:57.426Z</updated>
+  <id>http://aegis-readers.github.io/</id>
+  
+  <author>
+    <name>AEGIS</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS Reading Group企划！</title>
+    <link href="http://aegis-readers.github.io/2020/06/20/Bulletin/"/>
+    <id>http://aegis-readers.github.io/2020/06/20/Bulletin/</id>
+    <published>2020-06-20T04:00:34.647Z</published>
+    <updated>2020-06-20T09:01:57.426Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;鸽了快三个月，实在抱歉。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;第一次线上面基预订：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;形式：Webinar@Zoom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;时间：每周六北京时间晚九点（夏令时 0900
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
