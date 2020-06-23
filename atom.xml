@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-20T14:22:13.404Z</updated>
+  <updated>2020-06-23T05:50:38.111Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS Webinar 01-SGX Tutorial</title>
+    <link href="http://aegis-readers.github.io/2020/06/23/LEC1/"/>
+    <id>http://aegis-readers.github.io/2020/06/23/LEC1/</id>
+    <published>2020-06-23T05:34:59.709Z</published>
+    <updated>2020-06-23T05:50:38.111Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们的第一次Webinar邀请到了UCSB的Lianke Qin大佬来讲讲SGX LOL&lt;/p&gt;
+&lt;h3 id=&quot;时间：&quot;&gt;&lt;a href=&quot;#时间：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
+    
+    
+      <category term="SGX" scheme="http://aegis-readers.github.io/tags/SGX/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS Reading Group企划！</title>
