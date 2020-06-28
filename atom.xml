@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-23T05:58:54.041Z</updated>
+  <updated>2020-06-28T09:36:25.544Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>LEC1-release</title>
+    <link href="http://aegis-readers.github.io/2020/06/28/LEC1-release/"/>
+    <id>http://aegis-readers.github.io/2020/06/28/LEC1-release/</id>
+    <published>2020-06-28T09:31:32.000Z</published>
+    <updated>2020-06-28T09:36:25.544Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The slides of AEGIS Webinar 1 is released:&lt;/p&gt;
+
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;./Intro-to-Intel-SGX.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="http://aegis-readers.github.io/categories/Note/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="sgx" scheme="http://aegis-readers.github.io/tags/sgx/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AEGIS Webinar 01-SGX Tutorial</title>
     <link href="http://aegis-readers.github.io/2020/06/23/LEC1/"/>
     <id>http://aegis-readers.github.io/2020/06/23/LEC1/</id>
-    <published>2020-06-23T05:34:59.709Z</published>
-    <updated>2020-06-23T05:58:54.041Z</updated>
+    <published>2020-06-23T09:31:32.000Z</published>
+    <updated>2020-06-28T09:38:00.123Z</updated>
     
     <summary type="html">
     
@@ -40,7 +73,9 @@
       <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
     
     
-      <category term="SGX" scheme="http://aegis-readers.github.io/tags/SGX/"/>
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="sgx" scheme="http://aegis-readers.github.io/tags/sgx/"/>
     
   </entry>
   
