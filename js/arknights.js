@@ -1,3 +1,4 @@
+"use strict";
 var dust = /** @class */ (function () {
     function dust() {
         this.x = 50;

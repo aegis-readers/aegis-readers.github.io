@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-28T09:36:25.544Z</updated>
+  <updated>2020-06-28T09:43:07.821Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>LEC1-release</title>
+    <title>AEGIS R01-SGX Tutorial</title>
     <link href="http://aegis-readers.github.io/2020/06/28/LEC1-release/"/>
     <id>http://aegis-readers.github.io/2020/06/28/LEC1-release/</id>
     <published>2020-06-28T09:31:32.000Z</published>
-    <updated>2020-06-28T09:36:25.544Z</updated>
+    <updated>2020-06-28T09:43:07.821Z</updated>
     
     <summary type="html">
     
@@ -40,7 +40,7 @@
     </summary>
     
     
-      <category term="Note" scheme="http://aegis-readers.github.io/categories/Note/"/>
+      <category term="Release" scheme="http://aegis-readers.github.io/categories/Release/"/>
     
     
       <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
@@ -50,11 +50,11 @@
   </entry>
   
   <entry>
-    <title>AEGIS Webinar 01-SGX Tutorial</title>
+    <title>AEGIS W01-SGX Tutorial</title>
     <link href="http://aegis-readers.github.io/2020/06/23/LEC1/"/>
     <id>http://aegis-readers.github.io/2020/06/23/LEC1/</id>
     <published>2020-06-23T09:31:32.000Z</published>
-    <updated>2020-06-28T09:38:00.123Z</updated>
+    <updated>2020-06-28T09:43:05.981Z</updated>
     
     <summary type="html">
     
