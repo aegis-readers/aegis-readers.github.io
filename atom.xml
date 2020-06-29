@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-29T01:47:24.743Z</updated>
+  <updated>2020-06-29T01:56:28.427Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://aegis-readers.github.io/2020/06/29/LEC2/"/>
     <id>http://aegis-readers.github.io/2020/06/29/LEC2/</id>
     <published>2020-06-29T00:00:32.000Z</published>
-    <updated>2020-06-29T01:47:24.743Z</updated>
+    <updated>2020-06-29T01:56:28.427Z</updated>
     
     <summary type="html">
     
@@ -40,9 +40,9 @@
       <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
     
     
-      <category term="Arch" scheme="http://aegis-readers.github.io/tags/Arch/"/>
+      <category term="ARCH" scheme="http://aegis-readers.github.io/tags/ARCH/"/>
     
-      <category term="Mobile" scheme="http://aegis-readers.github.io/tags/Mobile/"/>
+      <category term="mobile" scheme="http://aegis-readers.github.io/tags/mobile/"/>
     
   </entry>
   
