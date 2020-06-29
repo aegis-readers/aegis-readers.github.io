@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-28T09:47:52.469Z</updated>
+  <updated>2020-06-29T01:47:24.743Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W02-Smart Phone Matters!</title>
+    <link href="http://aegis-readers.github.io/2020/06/29/LEC2/"/>
+    <id>http://aegis-readers.github.io/2020/06/29/LEC2/</id>
+    <published>2020-06-29T00:00:32.000Z</published>
+    <updated>2020-06-29T01:47:24.743Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;隔壁Sys-Arch友群的Seminar!Yale System Lab的破布讲麒麟990，欢迎各位来捧场～&lt;/p&gt;
+&lt;h3 id=&quot;时间：&quot;&gt;&lt;a href=&quot;#时间：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
+    
+    
+      <category term="Arch" scheme="http://aegis-readers.github.io/tags/Arch/"/>
+    
+      <category term="Mobile" scheme="http://aegis-readers.github.io/tags/Mobile/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS R01-SGX Tutorial</title>
@@ -53,7 +83,7 @@
     <link href="http://aegis-readers.github.io/2020/06/23/LEC1/"/>
     <id>http://aegis-readers.github.io/2020/06/23/LEC1/</id>
     <published>2020-06-23T09:31:32.000Z</published>
-    <updated>2020-06-28T09:43:05.981Z</updated>
+    <updated>2020-06-29T00:47:13.997Z</updated>
     
     <summary type="html">
     
@@ -61,7 +91,7 @@
       
         
         
-          &lt;p&gt;我们的第一次Webinar邀请到了UCSB的Lianke Qin大佬来讲讲SGX LOL&lt;/p&gt;
+          &lt;p&gt;我们的第一次Webinar邀请到了UCSB的qls来讲讲SGX LOL&lt;/p&gt;
 &lt;h3 id=&quot;时间：&quot;&gt;&lt;a href=&quot;#时间：&quot; class=&quot;headerlink&quot;
         
       
