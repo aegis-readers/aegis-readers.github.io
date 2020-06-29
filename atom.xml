@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-29T01:56:28.427Z</updated>
+  <updated>2020-06-29T10:49:20.966Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The AEGIS Webinar Arrangement</title>
+    <link href="http://aegis-readers.github.io/2020/06/29/Arrangement/"/>
+    <id>http://aegis-readers.github.io/2020/06/29/Arrangement/</id>
+    <published>2020-06-29T10:44:39.000Z</published>
+    <updated>2020-06-29T10:49:20.966Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们将两个群的reading group合并升级成了AEGIS M.A.S.S.（Mobile，Arch，System，Security）Webinar.&lt;/p&gt;
+&lt;p&gt;时间安排：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mobile&amp;amp;Security
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
+    
+    
+      <category term="Bulletin" scheme="http://aegis-readers.github.io/tags/Bulletin/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W02-Smart Phone Matters!</title>
@@ -113,7 +143,7 @@
     <link href="http://aegis-readers.github.io/2020/06/20/Bulletin/"/>
     <id>http://aegis-readers.github.io/2020/06/20/Bulletin/</id>
     <published>2020-06-20T04:00:34.647Z</published>
-    <updated>2020-06-20T14:22:13.404Z</updated>
+    <updated>2020-06-29T10:44:48.752Z</updated>
     
     <summary type="html">
     
@@ -137,7 +167,7 @@
       <category term="Webinar" scheme="http://aegis-readers.github.io/categories/Webinar/"/>
     
     
-      <category term="Plan" scheme="http://aegis-readers.github.io/tags/Plan/"/>
+      <category term="Bulletin" scheme="http://aegis-readers.github.io/tags/Bulletin/"/>
     
   </entry>
   
