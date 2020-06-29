@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-29T10:49:20.966Z</updated>
+  <updated>2020-06-29T10:55:39.359Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://aegis-readers.github.io/2020/06/29/Arrangement/"/>
     <id>http://aegis-readers.github.io/2020/06/29/Arrangement/</id>
     <published>2020-06-29T10:44:39.000Z</published>
-    <updated>2020-06-29T10:49:20.966Z</updated>
+    <updated>2020-06-29T10:55:39.359Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,7 @@
       
         
         
-          &lt;p&gt;我们将两个群的reading group合并升级成了AEGIS M.A.S.S.（Mobile，Arch，System，Security）Webinar.&lt;/p&gt;
-&lt;p&gt;时间安排：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Mobile&amp;amp;Security
+          &lt;p&gt;We combined reading groups of both interest group and updated our reading group into AEGIS M.A.S.S. (Mobile，Arch，System，Security)
         
       
     
@@ -51,7 +48,7 @@
     <link href="http://aegis-readers.github.io/2020/06/29/LEC2/"/>
     <id>http://aegis-readers.github.io/2020/06/29/LEC2/</id>
     <published>2020-06-29T00:00:32.000Z</published>
-    <updated>2020-06-29T01:56:28.427Z</updated>
+    <updated>2020-06-29T11:02:07.483Z</updated>
     
     <summary type="html">
     
@@ -59,8 +56,8 @@
       
         
         
-          &lt;p&gt;隔壁Sys-Arch友群的Seminar!Yale System Lab的破布讲麒麟990，欢迎各位来捧场～&lt;/p&gt;
-&lt;h3 id=&quot;时间：&quot;&gt;&lt;a href=&quot;#时间：&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;In this additional session on Arch, Bowei from Yale System Lab will give a webinar on Huawei Kirin 990. Welcome abard.&lt;/p&gt;
+&lt;h3
         
       
     
@@ -113,7 +110,7 @@
     <link href="http://aegis-readers.github.io/2020/06/23/LEC1/"/>
     <id>http://aegis-readers.github.io/2020/06/23/LEC1/</id>
     <published>2020-06-23T09:31:32.000Z</published>
-    <updated>2020-06-29T00:47:13.997Z</updated>
+    <updated>2020-06-29T11:02:18.311Z</updated>
     
     <summary type="html">
     
@@ -121,8 +118,8 @@
       
         
         
-          &lt;p&gt;我们的第一次Webinar邀请到了UCSB的qls来讲讲SGX LOL&lt;/p&gt;
-&lt;h3 id=&quot;时间：&quot;&gt;&lt;a href=&quot;#时间：&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;We are glad to invite Lianke from UCSB for our first Webinar!&lt;/p&gt;
+&lt;h3 id=&quot;Time：&quot;&gt;&lt;a href=&quot;#Time：&quot; class=&quot;headerlink&quot;
         
       
     
@@ -139,11 +136,11 @@
   </entry>
   
   <entry>
-    <title>AEGIS Reading Group企划！</title>
+    <title>AEGIS Reading Group!</title>
     <link href="http://aegis-readers.github.io/2020/06/20/Bulletin/"/>
     <id>http://aegis-readers.github.io/2020/06/20/Bulletin/</id>
     <published>2020-06-20T04:00:34.647Z</published>
-    <updated>2020-06-29T10:44:48.752Z</updated>
+    <updated>2020-06-29T10:58:04.559Z</updated>
     
     <summary type="html">
     
@@ -151,13 +148,9 @@
       
         
         
-          &lt;p&gt;鸽了快三个月，实在抱歉。&lt;/p&gt;
+          &lt;p&gt;The first AEGIS (Advanced rEading Group in Information Security) is arranged and annouced!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;第一次线上面基预订：&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;形式：Webinar@Zoom&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;时间：每周六北京时间晚九点（夏令时 0900
+&lt;li&gt;Format:
         
       
     
