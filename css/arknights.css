@@ -202,12 +202,14 @@ table {
 
 .tag-list-link {
   color: #fff;
-  padding: 3px 6px 3px 12px;
+  font-size: 100%;
+  padding: 1px 2px 3px 4px;
   display: inline-block; }
 
 .tag-list-count {
   display: inline-block;
-  padding: 3px 6px;
+  padding: 1px 2px;
+  font-size: 100%;
   color: #fff;
   background-color: #494949; }
 
@@ -627,7 +629,7 @@ aside {
 #archive-aside {
   display: flex;
   order: -1;
-  width: 20%;
+  width: 300px;
   flex-grow: 1;
   flex-direction: column; }
 
@@ -663,7 +665,7 @@ aside {
       background-color: #fe2; }
   #Archives time {
     color: #fff;
-    padding: 0 10px 0 20px; }
+    padding: 0 5px 0px 0px; }
 
 .categories, .tags {
   display: inline-block; }
