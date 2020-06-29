@@ -627,6 +627,7 @@ aside {
 #archive-aside {
   display: flex;
   order: -1;
+  width: 20%;
   flex-grow: 1;
   flex-direction: column; }
 
@@ -652,7 +653,7 @@ aside {
   flex-grow: 5; }
   #Archives h2 {
     margin: 10px 0;
-    font-size: large; }
+    font-size: ; }
     #Archives h2:before {
       content: '';
       display: inline-block;
