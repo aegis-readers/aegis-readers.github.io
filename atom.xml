@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-06-30T23:56:08.431Z</updated>
+  <updated>2020-07-11T14:54:35.026Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W04-[Reading] Spectre Attacks Exploiting Speculative Execution</title>
+    <link href="http://aegis-readers.github.io/2020/07/11/LEC-4/"/>
+    <id>http://aegis-readers.github.io/2020/07/11/LEC-4/</id>
+    <published>2020-07-11T14:46:43.000Z</published>
+    <updated>2020-07-11T14:54:35.026Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;PoBu didn’t have time for his Shield Session, so AEGIS W04 is a Sword Session. In this webinar, I am going to provide an introduction on
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="CPU" scheme="http://aegis-readers.github.io/tags/CPU/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W03-Intro to Wireless &amp; IoT Security</title>
