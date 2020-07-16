@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-07-11T14:54:35.026Z</updated>
+  <updated>2020-07-16T13:57:23.927Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W05-[Reading] Attribute-based encryption</title>
+    <link href="http://aegis-readers.github.io/2020/07/16/LEC5/"/>
+    <id>http://aegis-readers.github.io/2020/07/16/LEC5/</id>
+    <published>2020-07-16T13:50:43.000Z</published>
+    <updated>2020-07-16T13:57:23.927Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The 5th AEGIS webinar is again a sword session, and we invited Junyi Tao from UCSB to share two crypto-related classic paper with us.
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="Cryptography" scheme="http://aegis-readers.github.io/tags/Cryptography/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W04-[Reading] Spectre Attacks Exploiting Speculative Execution</title>
