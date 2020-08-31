@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-08-06T14:48:18.901Z</updated>
+  <updated>2020-08-31T00:55:18.324Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W09- ASPLOS&#39;19-Morpheus</title>
+    <link href="http://aegis-readers.github.io/2020/08/31/LEC9/"/>
+    <id>http://aegis-readers.github.io/2020/08/31/LEC9/</id>
+    <published>2020-08-31T00:50:23.000Z</published>
+    <updated>2020-08-31T00:55:18.324Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The 9th AEGIS Webinar is a shield session. In this talk, we invited Shibo Chen from UMich to talk about his recent work, Morpheus, on
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="ARCH" scheme="http://aegis-readers.github.io/tags/ARCH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AEGIS W08-Automating Attack Analysis on Blockchains</title>
+    <link href="http://aegis-readers.github.io/2020/08/19/LEC8/"/>
+    <id>http://aegis-readers.github.io/2020/08/19/LEC8/</id>
+    <published>2020-08-19T01:10:19.000Z</published>
+    <updated>2020-08-31T00:51:56.268Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The 8th AEGIS Webinar is a shield session. In this talk, we invited zmx from Carnegie Mellon University to give a talk about Automating
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="Security" scheme="http://aegis-readers.github.io/tags/Security/"/>
+    
+      <category term="RL" scheme="http://aegis-readers.github.io/tags/RL/"/>
+    
+      <category term="Blockchain" scheme="http://aegis-readers.github.io/tags/Blockchain/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W07-[Reading] Linux Performance</title>
