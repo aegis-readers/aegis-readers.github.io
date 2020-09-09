@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-08-31T00:55:18.324Z</updated>
+  <updated>2020-09-09T04:14:31.560Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W10-Zero Knowledge Proof</title>
+    <link href="http://aegis-readers.github.io/2020/09/09/LEC10/"/>
+    <id>http://aegis-readers.github.io/2020/09/09/LEC10/</id>
+    <published>2020-09-09T04:07:21.000Z</published>
+    <updated>2020-09-09T04:14:31.560Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The 10th AEGIS Webinar is a sword session. In this talk, we invited Jiaheng Zhang from UC Berkeley. As a second-year PhD student,
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="CRYPTO" scheme="http://aegis-readers.github.io/tags/CRYPTO/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W09- ASPLOS&#39;19-Morpheus</title>
