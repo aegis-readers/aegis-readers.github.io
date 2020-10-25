@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-09-25T08:34:30.622Z</updated>
+  <updated>2020-10-25T02:16:49.001Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W12-Domain Spcefic Accelerator</title>
+    <link href="http://aegis-readers.github.io/2020/10/16/LEC12/"/>
+    <id>http://aegis-readers.github.io/2020/10/16/LEC12/</id>
+    <published>2020-10-16T05:17:45.000Z</published>
+    <updated>2020-10-25T02:16:49.001Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;After National Holiday, we resumed our regular webinar. The 12th AEGIS Webinar is a shield session. We invited Sihao Liu from UCLA to
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SYSTEM" scheme="http://aegis-readers.github.io/tags/SYSTEM/"/>
+    
+      <category term="ACCELERATOR" scheme="http://aegis-readers.github.io/tags/ACCELERATOR/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W11-ZKP Introduction</title>
@@ -42,6 +71,35 @@
       <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
     
       <category term="CRYPTO" scheme="http://aegis-readers.github.io/tags/CRYPTO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AEGIS W13-Formal Method Introduction</title>
+    <link href="http://aegis-readers.github.io/2020/09/25/LEC13/"/>
+    <id>http://aegis-readers.github.io/2020/09/25/LEC13/</id>
+    <published>2020-09-25T05:17:45.000Z</published>
+    <updated>2020-10-25T02:19:09.711Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Formal method is a powerful tool and an important topic in software analysis, verification, and security. In AEGIS W13, we invited Ying
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="FORMAL" scheme="http://aegis-readers.github.io/tags/FORMAL/"/>
     
   </entry>
   
