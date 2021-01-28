@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aegis-readers.github.io/"/>
-  <updated>2020-10-25T02:16:49.001Z</updated>
+  <updated>2021-01-28T03:10:40.144Z</updated>
   <id>http://aegis-readers.github.io/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AEGIS W13-Federated Learning</title>
+    <link href="http://aegis-readers.github.io/2020/11/25/LEC16/"/>
+    <id>http://aegis-readers.github.io/2020/11/25/LEC16/</id>
+    <published>2020-11-25T05:17:45.000Z</published>
+    <updated>2021-01-28T03:10:40.144Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Federated Learning has been gaining popularity over the past few years. In this talk, we invited Tian Li from CMU to share some of her
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="FL" scheme="http://aegis-readers.github.io/tags/FL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AEGIS W15-Verifying DNNs with Formal Method</title>
+    <link href="http://aegis-readers.github.io/2020/11/07/LEC15/"/>
+    <id>http://aegis-readers.github.io/2020/11/07/LEC15/</id>
+    <published>2020-11-07T05:17:45.000Z</published>
+    <updated>2021-01-28T03:10:35.092Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This is the second episode of W13 formal method tutorial. In this webinar, Haoze will continue to introduce some of his recent work in
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="FORMAL" scheme="http://aegis-readers.github.io/tags/FORMAL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AEGIS W14-Bluetooth Security</title>
+    <link href="http://aegis-readers.github.io/2020/11/01/LEC14/"/>
+    <id>http://aegis-readers.github.io/2020/11/01/LEC14/</id>
+    <published>2020-11-01T05:17:45.000Z</published>
+    <updated>2021-01-28T03:10:29.148Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This time we invited Haohuang Wen from Ohio State University to share some of his recent researches on bluetooth security. Haohuang Wen
+        
+      
+    
+    </summary>
+    
+    
+      <category term="webinar" scheme="http://aegis-readers.github.io/categories/webinar/"/>
+    
+    
+      <category term="SECURITY" scheme="http://aegis-readers.github.io/tags/SECURITY/"/>
+    
+      <category term="Bluetooth" scheme="http://aegis-readers.github.io/tags/Bluetooth/"/>
+    
+  </entry>
   
   <entry>
     <title>AEGIS W12-Domain Spcefic Accelerator</title>
@@ -79,7 +166,7 @@
     <link href="http://aegis-readers.github.io/2020/09/25/LEC13/"/>
     <id>http://aegis-readers.github.io/2020/09/25/LEC13/</id>
     <published>2020-09-25T05:17:45.000Z</published>
-    <updated>2020-10-25T02:19:09.711Z</updated>
+    <updated>2020-10-25T02:46:14.708Z</updated>
     
     <summary type="html">
     
