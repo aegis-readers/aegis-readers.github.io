@@ -54,6 +54,7 @@ h1,h3 {
   background-color: #006747; /* 2020 Color */
   background-color: #76001a; /* 2021 Color */
   background-color: #4DBBE9; /* 2022 Color */
+  background-color: #284852; /* 2023 Color */
 
   border-bottom: 1px solid #000000;
   color: #ffffff;
@@ -72,7 +73,7 @@ h1,h3 {
 }
 
 .jumbotron .title {
-  color: white;
+  color: #c2cfa2;
   font-family: "Merriweather","Palatino";
   font-size: 6.3ex;
   text-shadow: 2px 2px 2px #000000;

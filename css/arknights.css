@@ -2,7 +2,7 @@ html, body {
   height: 100%; }
 
 html {
-  -ms-scrollbar-base-color: #fe2;
+  -ms-scrollbar-base-color: #fedc5e;
   -ms-scrollbar-track-color: #69620a;
   scrollbar-width: thin;
   scrollbar-color: #fe2 #69620a; }
@@ -12,7 +12,7 @@ html {
   height: 6px; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #fe2;
+  background-color: #fedc5e;
   border-radius: .25em; }
 
 ::-webkit-scrollbar-track {
@@ -21,23 +21,26 @@ html {
 
 body {
   margin: 0 auto;
-  color: #c4c4c4;
-  background-color: #141516;
-  background-image: url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);
+  color: #fff;
+  background-color: #284852;
   background-attachment: fixed;
   background-position: 50% 40px;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "JetBrains Mono", sans-serif;
   display: flex;
+  font-size: 21px;
   flex-direction: column;
   align-items: stretch; }
-
+h1{
+  font-weight:bold;
+  font-size: 3ex;
+}
 h1, h2, h3, h4, h5, h6 {
   color: #fff; }
 
 a {
-  color: #22bbff;
+  color: #fedc5e;
   padding: 0 3px;
   text-decoration: none;
   transition: .3s; }
@@ -46,7 +49,7 @@ a {
     background-color: #22bbff; }
   a:active {
     color: #000;
-    background-color: #fe2; }
+    background-color: #fedc5e; }
 
 time {
   font-family: BenderLight; }
@@ -63,7 +66,7 @@ pre {
 
 kbd {
   color: #000;
-  background-color: #fe2;
+  background-color: #fedc5e;
   margin: 0 2px;
   border-radius: 2px;
   padding: 0 3px;
@@ -196,9 +199,9 @@ table {
     .tag-list-item:hover span {
       background-color: #313131; }
   .tag-list-item:active {
-    border-color: #fe2; }
+    border-color: #fedc5e; }
     .tag-list-item:active a {
-      background-color: #fe2; }
+      background-color: #fedc5e; }
 
 .tag-list-link {
   color: #fff;
@@ -218,7 +221,7 @@ header {
   top: 0;
   z-index: 2;
   margin: 0 0 20px 0;
-  background-color: #141516;
+  background-color: #284852;
   font-family: BenderLight; }
   header nav a {
     height: 40px;
@@ -322,14 +325,14 @@ article {
       color: #2bf;
       border-color: #2bf; }
     .recent-post:hover figure table .gutter {
-      background-color: #fe2; }
+      background-color: #fedc5e; }
     .recent-post:hover figure table .code {
       background-color: rgba(20, 21, 22, 0.8); }
       .recent-post:hover figure table .code, .recent-post:hover figure table .code:hover {
         color: #fff; }
     .recent-post:hover blockquote, .recent-post:hover blockquote:hover {
       color: #fff;
-      border-color: #fe2;
+      border-color: #fedc5e;
       background-color: rgba(20, 21, 22, 0.8); }
     .recent-post:hover .read-more {
       color: #fff;
@@ -466,7 +469,7 @@ aside {
     font-weight: 900; }
 
 #post-source span {
-  color: #fe2;
+  color: #fedc5e;
   background-color: #555; }
 
 #post-content h1:before, #post-content h2:before, #post-content h3:before, #post-content h4:before, #post-content h5:before, #post-content h6:before {
@@ -482,13 +485,13 @@ aside {
   margin: 20px 0; }
   #post-content h1:target a, #post-content h2:target a, #post-content h3:target a, #post-content h4:target a, #post-content h5:target a, #post-content h6:target a {
     margin-right: 10px;
-    background-color: #fe2; }
+    background-color: #fedc5e; }
 
 #post-content table {
   width: 100%; }
 
 #post-footer hr {
-  border-color: #fe2; }
+  border-color: #fedc5e; }
 
 #bottom-btn {
   position: sticky;
@@ -509,7 +512,7 @@ aside {
     #bottom-btn a:hover {
       color: #000;
       line-height: 30px;
-      background-color: #fe2; }
+      background-color: #fedc5e; }
 
 #to-index {
   bottom: 48px; }
@@ -522,7 +525,7 @@ aside {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.1); }
   #reward summary {
-    background-color: #fe2; }
+    background-color: #fedc5e; }
   #reward div {
     width: 45%;
     margin: 0;
@@ -546,17 +549,17 @@ aside {
     transition: .3s; }
     #Valine .vpanel .vwrap:hover {
       background-color: rgba(255, 255, 255, 0.1);
-      border-color: #fe2; }
+      border-color: #fedc5e; }
     #Valine .vpanel .vwrap .vheader .vinput {
       border-bottom-style: solid; }
       #Valine .vpanel .vwrap .vheader .vinput:focus {
         color: #2bf;
-        border-bottom-color: #fe2; }
+        border-bottom-color: #fedc5e; }
     #Valine .vpanel .vwrap .vicon:hover {
       background-color: unset; }
   #Valine .vpanel .vsubmit:hover {
-    color: #fe2;
-    border-color: #fe2;
+    color: #fedc5e;
+    border-color: #fedc5e;
     background-color: rgba(255, 255, 255, 0.2); }
   #Valine .vcard .vnick {
     color: #2bf; }
@@ -565,7 +568,7 @@ aside {
   #Valine .vsys {
     background-color: transparent; }
   #Valine .vmeta .vat {
-    color: #fe2; }
+    color: #fedc5e; }
   #Valine .vcontent {
     color: #c4c4c4;
     border-left: #fe2 solid 3px;
@@ -604,7 +607,7 @@ aside {
   width: 100%;
   display: inline-block; }
   #post-index .toc-link:visited {
-    color: #fe2; }
+    color: #fedc5e; }
   #post-index .toc-link:hover .toc-number {
     display: none; }
   #post-index .toc-link:hover .toc-text {
@@ -662,7 +665,7 @@ aside {
       width: 5px;
       height: 15px;
       margin-right: 5px;
-      background-color: #fe2; }
+      background-color: #fedc5e; }
   #Archives time {
     color: #fff;
     padding: 0 5px 0px 0px; }
@@ -811,3 +814,15 @@ aside {
       font-size: 53px; }
     aside #total-tags, aside #total-categories {
       font-size: 32px; } }
+
+  
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  /* background-color: #fff; */
+  border: 1px solid #ddd
+  
+}
+
