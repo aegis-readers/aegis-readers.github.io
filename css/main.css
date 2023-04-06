@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+  h1,h3 {
+    font-size: 3.2ex;
+  }
+  .jumbotron {
+    font-size: 1.1ex;
+  }
+}
+
+/* http://colorschemedesigner.com/#2h51Tp78Ew0w0 */
+a,a:hover {
+  color: #ff8900; /* 2015 Color */
+  color: #e30c00; /* 2016 Color */
+  color: #660000; /* 2017 Color */
+  color: #860038; /* 2018 Color */
+  color: #dc3b34; /* 2019 Color */
+  color: #ff8900; /* 2020 Color */
+  color: #0040b0; /* 2022 Color */
+
+}
+
+a.jumbotron_link {
+  color: #e59b5e; /* 2017 Color */
+  color: #e59b5e; /* 2018 Color */
+  color: #dc3b34; /* 2019 Color */
+  color: #ff8900; /* 2020 Color */
+  color: #0040b0; /* 2022 Color */
+}
+
+body {
+  font-family: "Source Sans","Helvetica Neue","Helvetica","Arial","sans-serif";
+  padding-top: 40px;
+}
+
+h1,h3 {
+  font-family: "Merriweather","Palatino";
+  margin-top: 1.7ex;
+}
+
+.footer {
+  border-top: 1px solid #000000;
+  margin-top: 4ex;
+  padding: 4ex;
+  vertical-align: middle;
+}
+
+
+.jumbotron {
+  background-color: #086fa1; /* 2015 Color */
+  background-color: #ffcc00; /* 2016 Color */	
+  background-color: #660000; /* 2017 Color */
+  background-color: #860038; /* 2018 Color */
+  background-color: #04225c; /* 2019 Color */
+  background-color: #006747; /* 2020 Color */
+  background-color: #76001a; /* 2021 Color */
+  background-color: #4DBBE9; /* 2022 Color */
+
+  border-bottom: 1px solid #000000;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 3ex;
+  text-align: center;
+}
+
+.jumbotron .container {
+  max-width: 768px;
+}
+
+.jumbotron .location {
+  font-family: "Source Sans","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size: 3ex;
+}
+
+.jumbotron .title {
+  color: white;
+  font-family: "Merriweather","Palatino";
+  font-size: 6.3ex;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.jumbotron .sponsors {
+  font-family: "Source Sans","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size: 2.8ex;
+}
+
+.jumbotron .btn-lg {
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 2ex;
+  text-shadow: none;
+}
+
+.jumbotron .btn-lg:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.notice {
+  background-color: #e59b5e;
+
+  /* border-bottom: 1px solid #000000; */
+  color: #ffffff;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 0ex;
+  text-align: center;
+  font-size: 4ex;
+}
+
+.notice .text {
+    font-size: 1ex;
+}
+
+
+.list-group-item {
+  border: 0;
+}
+
+.logo {
+  max-height: 8em;
+  max-width: 300px;
+}
+
+.logo-workshops {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-toggle {
+  color: white;
+}
+
+.table {
+  margin-top: 1.5em;
+}
+
+.table td, .table th {
+  border-top: none !important;
+}
+
+.table-nonfluid {
+  width: auto;
+}
+
+.table-workshops {
+  font-size: 1.5em;
+}
+
+.table-workshops td {
+  vertical-align: middle !important;
+}
+
+.row-same-height {
+  display: table;
+  width: 100%;
+  padding-bottom: 1.5em;
+}
+
+.col-xs-height {
+  display: table-cell;
+  float: none !important;
+}
+
+.col-middle {
+  vertical-align: middle;
+}
+
+.subtable {
+  margin-top: 1.5em;
+  table-layout: fixed;
+}
+
+.subtable td, .table th {
+  border: 1px solid black !important;
+  padding: 5px;
+  text-align: center;
+}
+
+.subtable tr:first-child td,
+.subtable tr:nth-child(2) td{
+  font-weight: bold;
+}
+
+
+.subtable-nonfluid {
+  width: 80%;
+}
+
+
+.vencolumn {
+	float: left;
+	width: 50%;
+}
+
+
+.venrow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
