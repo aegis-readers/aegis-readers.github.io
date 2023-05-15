@@ -231,7 +231,7 @@ main {
     font-size: large;
     margin: 0; }
   .recent-post .categories, .recent-post .tags {
-    font-family: BenderLight, sans-serif; }
+    font-family: JetBrains Mono, sans-serif; }
   .recent-post .categories {
     color: #fedc5e;
     font-size: large;
