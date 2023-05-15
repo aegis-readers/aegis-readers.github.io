@@ -68,7 +68,7 @@ pre {
 
 table {
   border: 0;
-  /* width: 800px; */
+  width: 800px;
   border-collapse: collapse; }
   table th {
     color: #000;
@@ -206,17 +206,7 @@ main {
     aside h1 {
       font-size: xx-large; } }
 
-.read-more {
-  color: var(--theme-background);
-  display: block;
-  float: right;
-  font-size: smaller;
-  font-weight: 600;
-  background-color: var(--theme-highlight);
-  margin-top: -21px;
-  padding: 3px 10px 3px 40px;
-  font-family: "JetBrains Mono";
-}
+
       
 .recent-post {
   color: #fff;
@@ -285,6 +275,6 @@ main {
       color: #fff;
       border-color: #fedc5e;
       background-color: rgba(20, 21, 22, 0.8); }
-   
-
-     
+    .recent-post:hover .read-more {
+      color: #fff;
+      background-color: #000; }
