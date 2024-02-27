@@ -83,7 +83,7 @@ table {
 
 @font-face {
   font-family: BenderLight;
-  src: local("Bender"), url("/font/BenderLight.ttf"); }
+  src: local("Bender"), url("/font/Jost-VariableFont_wght.ttf"); }
 
 @font-face {
   font-family: 'JetBrains Mono';

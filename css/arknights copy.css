@@ -100,6 +100,11 @@ table {
     table td:hover {
       background-color: rgba(34, 187, 255, 0.1); }
 
+
+
+
+
+      
 @font-face {
   font-family: BenderLight;
   src: local("Bender"), url("/font/Jost-VariableFont_wght.ttf"); }
