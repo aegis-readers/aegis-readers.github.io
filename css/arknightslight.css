@@ -28,7 +28,7 @@ body {
   background-position: 50% 40px;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "JetBrains Mono", sans-serif;
+  font-family: "JostWGHT", sans-serif;
   display: flex;
   font-size: 16px;
   flex-direction: column;
@@ -56,7 +56,7 @@ time {
   font-family: JostWGHT; }
 
 code, pre {
-  font-family: "JetBrains Mono"; }
+  font-family: "JostWGHT"; }
 
 code {
   background-color: rgba(255, 255, 255, 0.1);
@@ -83,11 +83,11 @@ table {
 
 @font-face {
   font-family: JostWGHT;
-  src: local("Bender"), url("/font/JostWGHT.ttf"); }
+  src: local("JostWGHT"), url("/font/JostWGHT.ttf"); }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: local("JetBrains Mono"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); }
+  font-family: 'JostWGHT';
+  src: local("JostWGHT"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); }
 
 
 header {

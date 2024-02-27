@@ -27,7 +27,7 @@ body {
   background-position: 50% 40px;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "JetBrains Mono", sans-serif;
+  font-family: "JostWGHT", sans-serif;
   display: flex;
   /* font-size: 21px; */
   flex-direction: column;
@@ -55,7 +55,7 @@ time {
   font-family: JostWGHT; }
 
 code, pre {
-  font-family: "JetBrains Mono"; }
+  font-family: "JostWGHT"; }
 
 code {
   background-color: rgba(255, 255, 255, 0.1);
@@ -70,7 +70,7 @@ kbd {
   margin: 0 2px;
   border-radius: 2px;
   padding: 0 3px;
-  font-family: "JetBrains Mono"; }
+  font-family: "JostWGHT"; }
 
 strong em {
   color: #ec3000; }
@@ -107,11 +107,11 @@ table {
 
 @font-face {
   font-family: JostWGHT;
-  src: local("Bender"), url("/font/JostWGHT.ttf"); }
+  src: local("JostWGHT"), url("/font/JostWGHT.ttf"); }
 
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: local("JetBrains Mono"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); }
+/* @font-face {
+  font-family: 'JostWGHT';
+  src: local("JostWGHT"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); } */
 
 .text-title, .text-content {
   height: 18px;
@@ -548,7 +548,7 @@ aside {
   color: #fff;
   padding: 10px 0; }
   #Valine code {
-    font-family: "JetBrains Mono"; }
+    font-family: "JostWGHT"; }
   #Valine .vpanel .vwrap {
     background-color: rgba(255, 255, 255, 0.05);
     transition: .3s; }
@@ -593,7 +593,7 @@ aside {
 
 #veditor {
   color: #fff;
-  font-family: "JetBrains Mono"; }
+  font-family: "JostWGHT"; }
 
 #post-index .toc {
   margin: 0;
