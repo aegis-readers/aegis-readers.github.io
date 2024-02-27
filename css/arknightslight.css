@@ -53,7 +53,7 @@ a {
     background-color: #fedc5e; }
 
 time {
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
 
 code, pre {
   font-family: "JetBrains Mono"; }
@@ -82,8 +82,8 @@ table {
       background-color: rgba(34, 187, 255, 0.1); }
 
 @font-face {
-  font-family: BenderLight;
-  src: local("Bender"), url("/font/Jost-VariableFont_wght.ttf"); }
+  font-family: JostWGHT;
+  src: local("Bender"), url("/font/JostWGHT.ttf"); }
 
 @font-face {
   font-family: 'JetBrains Mono';
@@ -96,7 +96,7 @@ header {
   z-index: 2;
   margin: 0 0 20px 0;
   background-color: #284852;
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
   header nav a {
     height: 40px;
     line-height: 40px;
@@ -125,7 +125,7 @@ main {
   padding: 6px 0;
   font-size: x-large;
   font-weight: 900;
-  font-family: BenderLight;
+  font-family: JostWGHT;
   text-align: center; }
 
 @media (max-width: 768px) {
@@ -221,7 +221,7 @@ main {
     font-size: large;
     margin: 0; }
   .recent-post .categories, .recent-post .tags {
-    font-family: BenderLight, sans-serif; }
+    font-family: JostWGHT, sans-serif; }
   .recent-post .categories {
     color: #fedc5e;
     font-size: large;

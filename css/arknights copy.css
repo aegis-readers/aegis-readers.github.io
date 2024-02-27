@@ -52,7 +52,7 @@ a {
     background-color: #fedc5e; }
 
 time {
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
 
 code, pre {
   font-family: "JetBrains Mono"; }
@@ -104,10 +104,10 @@ table {
 
 
 
-      
+
 @font-face {
-  font-family: BenderLight;
-  src: local("Bender"), url("/font/Jost-VariableFont_wght.ttf"); }
+  font-family: JostWGHT;
+  src: local("Bender"), url("/font/JostWGHT.ttf"); }
 
 @font-face {
   font-family: 'JetBrains Mono';
@@ -227,7 +227,7 @@ header {
   z-index: 2;
   margin: 0 0 20px 0;
   background-color: #284852;
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
   header nav a {
     height: 40px;
     line-height: 40px;
@@ -285,7 +285,7 @@ article {
     font-size: large;
     margin: 0; }
   .recent-post .categories, .recent-post .tags {
-    font-family: BenderLight, sans-serif; }
+    font-family: JostWGHT, sans-serif; }
   .recent-post .categories {
     color: #2bf;
     font-size: large;
@@ -364,7 +364,7 @@ article {
   background-color: #22bbff;
   margin-top: -21px;
   padding: 3px 10px 3px 40px;
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
 
 aside {
   height: 100%;
@@ -378,12 +378,12 @@ aside {
   justify-content: space-between;
   align-content: stretch; }
   aside h1 {
-    font-family: BenderLight, sans-serif;
+    font-family: JostWGHT, sans-serif;
     margin-top: 0; }
   aside footer {
     color: #898989;
     padding: 0 3px 30px 3px;
-    font-family: BenderLight; }
+    font-family: JostWGHT; }
 
 #logo {
   width: 100%;
@@ -399,7 +399,7 @@ aside {
 
 #total {
   margin: 10px 0;
-  font-family: BenderLight; }
+  font-family: JostWGHT; }
   #total div {
     display: inline-block; }
 
@@ -653,7 +653,7 @@ aside {
     color: #000;
     background-color: #fff;
     font-size: medium;
-    font-family: BenderLight; }
+    font-family: JostWGHT; }
   #Archives:hover, #Archives:target, #Categories:hover, #Categories:target, #Tags:hover, #Tags:target {
     background-color: rgba(255, 255, 255, 0.05); }
     #Archives:hover h1, #Archives:target h1, #Categories:hover h1, #Categories:target h1, #Tags:hover h1, #Tags:target h1 {
@@ -696,7 +696,7 @@ aside {
   padding: 6px 0;
   font-size: x-large;
   font-weight: 900;
-  font-family: BenderLight;
+  font-family: JostWGHT;
   text-align: center; }
 
 @media (max-width: 768px) {
