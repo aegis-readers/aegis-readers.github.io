@@ -1,0 +1,1384 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ACM ASIACCS 2024</title>
+    <link rel="stylesheet" id="megamenu-css" href="https://asiaccs2024.sutd.edu.sg/wp-content/uploads/maxmegamenu/style.css?ver=54c4f0" type="text/css" media="all">
+    <link rel="stylesheet" id="dashicons-css" href="https://asiaccs2024.sutd.edu.sg/wp-includes/css/dashicons.min.css?ver=6ce15c5e73d8f5431e78862df7ab0178" type="text/css" media="all">
+    <link rel="stylesheet" id="neve-style-css" href="https://asiaccs2024.sutd.edu.sg/wp-content/themes/neve/style-main-new.min.css?ver=3.6.5" type="text/css" media="all">
+    <style id="neve-style-inline-css" type="text/css">
+      .nv-meta-list li.meta:not(:last-child):after {
+        content: "/"
+      }
+
+      .nv-meta-list .no-mobile {
+        display: none;
+      }
+
+      .nv-meta-list li.last::after {
+        content: "" !important;
+      }
+
+      @media (min-width: 769px) {
+        .nv-meta-list .no-mobile {
+          display: inline-block;
+        }
+
+        .nv-meta-list li.last:not(:last-child)::after {
+          content: "/" !important;
+        }
+      }
+
+      :root {
+        --container: 748px;
+        --postwidth: 100%;
+        --primarybtnbg: var(--nv-primary-accent);
+        --primarybtnhoverbg: var(--nv-primary-accent);
+        --primarybtncolor: #fff;
+        --secondarybtncolor: var(--nv-primary-accent);
+        --primarybtnhovercolor: #fff;
+        --secondarybtnhovercolor: var(--nv-primary-accent);
+        --primarybtnborderradius: 3px;
+        --secondarybtnborderradius: 3px;
+        --secondarybtnborderwidth: 3px;
+        --btnpadding: 13px 15px;
+        --primarybtnpadding: 13px 15px;
+        --secondarybtnpadding: calc(13px - 3px) calc(15px - 3px);
+        --bodyfontfamily: Arial, Helvetica, sans-serif;
+        --bodyfontsize: 15px;
+        --bodylineheight: 1.6;
+        --bodyletterspacing: 0px;
+        --bodyfontweight: 400;
+        --headingsfontfamily: Arial, Helvetica, sans-serif;
+        --h1fontsize: 36px;
+        --h1fontweight: 700;
+        --h1lineheight: 1.2;
+        --h1letterspacing: 0px;
+        --h1texttransform: none;
+        --h2fontsize: 28px;
+        --h2fontweight: 700;
+        --h2lineheight: 1.3;
+        --h2letterspacing: 0px;
+        --h2texttransform: none;
+        --h3fontsize: 24px;
+        --h3fontweight: 700;
+        --h3lineheight: 1.4;
+        --h3letterspacing: 0px;
+        --h3texttransform: none;
+        --h4fontsize: 20px;
+        --h4fontweight: 700;
+        --h4lineheight: 1.6;
+        --h4letterspacing: 0px;
+        --h4texttransform: none;
+        --h5fontsize: 16px;
+        --h5fontweight: 700;
+        --h5lineheight: 1.6;
+        --h5letterspacing: 0px;
+        --h5texttransform: none;
+        --h6fontsize: 14px;
+        --h6fontweight: 700;
+        --h6lineheight: 1.6;
+        --h6letterspacing: 0px;
+        --h6texttransform: none;
+        --formfieldborderwidth: 2px;
+        --formfieldborderradius: 3px;
+        --formfieldbgcolor: var(--nv-site-bg);
+        --formfieldbordercolor: #dddddd;
+        --formfieldcolor: var(--nv-text-color);
+        --formfieldpadding: 10px 12px;
+      }
+
+      .single-post-container .alignfull>[class*="__inner-container"],
+      .single-post-container .alignwide>[class*="__inner-container"] {
+        max-width: 718px
+      }
+
+      .nv-meta-list {
+        --avatarsize: 20px;
+      }
+
+      .single .nv-meta-list {
+        --avatarsize: 20px;
+      }
+
+      .nv-post-cover {
+        --height: 250px;
+        --padding: 40px 15px;
+        --justify: flex-start;
+        --textalign: left;
+        --valign: center;
+      }
+
+      .nv-post-cover .nv-title-meta-wrap,
+      .nv-page-title-wrap,
+      .entry-header {
+        --textalign: left;
+      }
+
+      .nv-is-boxed.nv-title-meta-wrap {
+        --padding: 40px 15px;
+        --bgcolor: var(--nv-dark-bg);
+      }
+
+      .nv-overlay {
+        --opacity: 50;
+        --blendmode: normal;
+      }
+
+      .nv-is-boxed.nv-comments-wrap {
+        --padding: 20px;
+      }
+
+      .nv-is-boxed.comment-respond {
+        --padding: 20px;
+      }
+
+      .single:not(.single-product),
+      .page {
+        --c-vspace: 0 0 0 0;
+        ;
+      }
+
+      .global-styled {
+        --bgcolor: var(--nv-site-bg);
+      }
+
+      .header-top {
+        --rowbwidth: 0px;
+        --rowbcolor: var(--nv-light-bg);
+        --color: var(--nv-text-color);
+        --bgimage: none;
+        --bgposition: 50% 50%;
+        ;
+        --bgoverlayopacity: 0.5;
+      }
+
+      .header-main {
+        --rowbcolor: #f5f5f5;
+        --color: var(--nv-text-color);
+        --bgimage: none;
+        --bgposition: 50% 50%;
+        ;
+        --bgoverlayopacity: 0.5;
+      }
+
+      .header-bottom {
+        --height: 390px;
+        --rowbwidth: 0px;
+        --rowbcolor: var(--nv-light-bg);
+        --color: #ffffff;
+        --bgimage: url("https://asiaccs2024.sutd.edu.sg/wp-content/uploads/2022/12/Banner15-cropped.jpeg");
+        --bgposition: 65% 33%;
+        ;
+        --bgoverlayopacity: 0.5;
+      }
+
+      .builder-item--logo {
+        --maxwidth: 120px;
+        --color: #079cc2;
+        --padding: 10px 0;
+        --margin: 0;
+        --textalign: left;
+        --justify: flex-start;
+      }
+
+      .builder-item--primary-menu {
+        --color: #2f5aae;
+        --hovercolor: #1abee7;
+        --hovertextcolor: var(--nv-text-color);
+        --activecolor: #1abee7;
+        --spacing: 20px;
+        --height: 25px;
+        --padding: 0;
+        --margin: 0;
+        --fontfamily: Arial, Helvetica, sans-serif;
+        --fontsize: 1em;
+        --lineheight: 1.6em;
+        --letterspacing: 0px;
+        --fontweight: 700;
+        --texttransform: none;
+        --iconsize: 1em;
+      }
+
+      .hfg-is-group.has-primary-menu .inherit-ff {
+        --inheritedff: Arial, Helvetica, sans-serif;
+        --inheritedfw: 700;
+      }
+
+      .builder-item--custom_html {
+        --padding: 0;
+        --margin: 0;
+        --fontsize: 1em;
+        --lineheight: 1.6em;
+        --letterspacing: 0px;
+        --fontweight: 900;
+        --texttransform: none;
+        --iconsize: 1em;
+        --textalign: left;
+        --justify: flex-start;
+      }
+
+      .footer-top-inner .row {
+        grid-template-columns: 1fr 1fr;
+        --valign: flex-end;
+      }
+
+      .footer-top {
+        --rowbcolor: var(--nv-light-bg);
+        --color: var(--nv-text-color);
+        --bgcolor: rgba(36, 15, 15, 0.83);
+      }
+
+      .footer-main-inner .row {
+        grid-template-columns: 1fr;
+        --valign: flex-start;
+      }
+
+      .footer-main {
+        --rowbcolor: var(--nv-light-bg);
+        --color: var(--nv-text-color);
+        --bgcolor: var(--nv-site-bg);
+      }
+
+      .footer-bottom-inner .row {
+        grid-template-columns: 1fr 1fr 1fr;
+        --valign: flex-start;
+      }
+
+      .footer-bottom {
+        --rowbcolor: var(--nv-light-bg);
+        --color: var(--nv-text-dark-bg);
+        --bgcolor: rgba(36, 15, 15, 0.83);
+      }
+
+      .builder-item--footer-one-widgets {
+        --padding: 0;
+        --margin: 0;
+        --textalign: left;
+        --justify: flex-start;
+      }
+
+      .builder-item--footer-two-widgets {
+        --padding: 0;
+        --margin: 0;
+        --textalign: left;
+        --justify: flex-start;
+      }
+
+      @media(min-width: 576px) {
+        :root {
+          --container: 992px;
+          --postwidth: 50%;
+          --btnpadding: 13px 15px;
+          --primarybtnpadding: 13px 15px;
+          --secondarybtnpadding: calc(13px - 3px) calc(15px - 3px);
+          --bodyfontsize: 16px;
+          --bodylineheight: 1.6;
+          --bodyletterspacing: 0px;
+          --h1fontsize: 38px;
+          --h1lineheight: 1.2;
+          --h1letterspacing: 0px;
+          --h2fontsize: 30px;
+          --h2lineheight: 1.2;
+          --h2letterspacing: 0px;
+          --h3fontsize: 26px;
+          --h3lineheight: 1.4;
+          --h3letterspacing: 0px;
+          --h4fontsize: 22px;
+          --h4lineheight: 1.5;
+          --h4letterspacing: 0px;
+          --h5fontsize: 18px;
+          --h5lineheight: 1.6;
+          --h5letterspacing: 0px;
+          --h6fontsize: 14px;
+          --h6lineheight: 1.6;
+          --h6letterspacing: 0px;
+        }
+
+        .single-post-container .alignfull>[class*="__inner-container"],
+        .single-post-container .alignwide>[class*="__inner-container"] {
+          max-width: 962px
+        }
+
+        .nv-meta-list {
+          --avatarsize: 20px;
+        }
+
+        .single .nv-meta-list {
+          --avatarsize: 20px;
+        }
+
+        .nv-post-cover {
+          --height: 320px;
+          --padding: 60px 30px;
+          --justify: flex-start;
+          --textalign: left;
+          --valign: center;
+        }
+
+        .nv-post-cover .nv-title-meta-wrap,
+        .nv-page-title-wrap,
+        .entry-header {
+          --textalign: left;
+        }
+
+        .nv-is-boxed.nv-title-meta-wrap {
+          --padding: 60px 30px;
+        }
+
+        .nv-is-boxed.nv-comments-wrap {
+          --padding: 30px;
+        }
+
+        .nv-is-boxed.comment-respond {
+          --padding: 30px;
+        }
+
+        .single:not(.single-product),
+        .page {
+          --c-vspace: 0 0 0 0;
+          ;
+        }
+
+        .header-top {
+          --rowbwidth: 0px;
+        }
+
+        .header-bottom {
+          --rowbwidth: 0px;
+        }
+
+        .builder-item--logo {
+          --maxwidth: 120px;
+          --padding: 10px 0;
+          --margin: 0;
+          --textalign: right;
+          --justify: flex-end;
+        }
+
+        .builder-item--primary-menu {
+          --spacing: 20px;
+          --height: 25px;
+          --padding: 0;
+          --margin: 0;
+          --fontsize: 1em;
+          --lineheight: 1.6em;
+          --letterspacing: 0px;
+          --iconsize: 1em;
+        }
+
+        .builder-item--custom_html {
+          --padding: 0;
+          --margin: 0;
+          --fontsize: 1em;
+          --lineheight: 1.6em;
+          --letterspacing: 0px;
+          --iconsize: 1em;
+          --textalign: left;
+          --justify: flex-start;
+        }
+
+        .builder-item--footer-one-widgets {
+          --padding: 0;
+          --margin: 0;
+          --textalign: left;
+          --justify: flex-start;
+        }
+
+        .builder-item--footer-two-widgets {
+          --padding: 0;
+          --margin: 0;
+          --textalign: left;
+          --justify: flex-start;
+        }
+      }
+
+      @media(min-width: 960px) {
+        :root {
+          --container: 1350px;
+          --postwidth: 33.333333333333%;
+          --btnpadding: 13px 15px;
+          --primarybtnpadding: 13px 15px;
+          --secondarybtnpadding: calc(13px - 3px) calc(15px - 3px);
+          --bodyfontsize: 16px;
+          --bodylineheight: 1.7;
+          --bodyletterspacing: 0px;
+          --h1fontsize: 40px;
+          --h1lineheight: 1.1;
+          --h1letterspacing: 0px;
+          --h2fontsize: 32px;
+          --h2lineheight: 1.2;
+          --h2letterspacing: 0px;
+          --h3fontsize: 28px;
+          --h3lineheight: 1.4;
+          --h3letterspacing: 0px;
+          --h4fontsize: 24px;
+          --h4lineheight: 1.5;
+          --h4letterspacing: 0px;
+          --h5fontsize: 20px;
+          --h5lineheight: 1.6;
+          --h5letterspacing: 0px;
+          --h6fontsize: 16px;
+          --h6lineheight: 1.6;
+          --h6letterspacing: 0px;
+        }
+
+        body:not(.single):not(.archive):not(.blog):not(.search):not(.error404) .neve-main>.container .col,
+        body.post-type-archive-course .neve-main>.container .col,
+        body.post-type-archive-llms_membership .neve-main>.container .col {
+          max-width: 95%;
+        }
+
+        body:not(.single):not(.archive):not(.blog):not(.search):not(.error404) .nv-sidebar-wrap,
+        body.post-type-archive-course .nv-sidebar-wrap,
+        body.post-type-archive-llms_membership .nv-sidebar-wrap {
+          max-width: 5%;
+        }
+
+        .neve-main>.archive-container .nv-index-posts.col {
+          max-width: 95%;
+        }
+
+        .neve-main>.archive-container .nv-sidebar-wrap {
+          max-width: 5%;
+        }
+
+        .neve-main>.single-post-container .nv-single-post-wrap.col {
+          max-width: 70%;
+        }
+
+        .single-post-container .alignfull>[class*="__inner-container"],
+        .single-post-container .alignwide>[class*="__inner-container"] {
+          max-width: 915px
+        }
+
+        .container-fluid.single-post-container .alignfull>[class*="__inner-container"],
+        .container-fluid.single-post-container .alignwide>[class*="__inner-container"] {
+          max-width: calc(70% + 15px)
+        }
+
+        .neve-main>.single-post-container .nv-sidebar-wrap {
+          max-width: 30%;
+        }
+
+        .nv-meta-list {
+          --avatarsize: 20px;
+        }
+
+        .single .nv-meta-list {
+          --avatarsize: 20px;
+        }
+
+        .nv-post-cover {
+          --height: 400px;
+          --padding: 60px 40px;
+          --justify: flex-start;
+          --textalign: left;
+          --valign: center;
+        }
+
+        .nv-post-cover .nv-title-meta-wrap,
+        .nv-page-title-wrap,
+        .entry-header {
+          --textalign: left;
+        }
+
+        .nv-is-boxed.nv-title-meta-wrap {
+          --padding: 60px 40px;
+        }
+
+        .nv-is-boxed.nv-comments-wrap {
+          --padding: 40px;
+        }
+
+        .nv-is-boxed.comment-respond {
+          --padding: 40px;
+        }
+
+        .single:not(.single-product),
+        .page {
+          --c-vspace: 0 0 0 0;
+          ;
+        }
+
+        .header-top {
+          --rowbwidth: 0px;
+        }
+
+        .header-bottom {
+          --height: 390px;
+          --rowbwidth: 0px;
+        }
+
+        .builder-item--logo {
+          --maxwidth: 120px;
+          --padding: 0;
+          --margin: 0;
+          --textalign: left;
+          --justify: flex-start;
+        }
+
+        .builder-item--primary-menu {
+          --spacing: 20px;
+          --height: 25px;
+          --padding: 0;
+          --margin: 0;
+          --fontsize: 1.1em;
+          --lineheight: 1.6em;
+          --letterspacing: 0px;
+          --iconsize: 1.1em;
+        }
+
+        .builder-item--custom_html {
+          --padding: 0;
+          --margin: 0;
+          --fontsize: 1em;
+          --lineheight: 1.6em;
+          --letterspacing: 0px;
+          --iconsize: 1em;
+          --textalign: left;
+          --justify: flex-start;
+        }
+
+        .builder-item--footer-one-widgets {
+          --padding: 0;
+          --margin: 0;
+          --textalign: left;
+          --justify: flex-start;
+        }
+
+        .builder-item--footer-two-widgets {
+          --padding: 0;
+          --margin: 0;
+          --textalign: left;
+          --justify: flex-start;
+        }
+      }
+
+      :root {
+        --nv-primary-accent: #2f5aae;
+        --nv-secondary-accent: #2f5aae;
+        --nv-site-bg: #ffffff;
+        --nv-light-bg: #f4f5f7;
+        --nv-dark-bg: #121212;
+        --nv-text-color: #272626;
+        --nv-text-dark-bg: #ffffff;
+        --nv-c-1: #9463ae;
+        --nv-c-2: #be574b;
+        --nv-fallback-ff: Arial, Helvetica, sans-serif;
+      }
+
+      #content.neve-main .container .alignfull>[class*="__inner-container"],
+      #content.neve-main .alignwide>[class*="__inner-container"] {
+        max-width: 718px;
+      }
+
+      @media(min-width: 576px) {
+
+        #content.neve-main .container .alignfull>[class*="__inner-container"],
+        #content.neve-main .alignwide>[class*="__inner-container"] {
+          max-width: 962px;
+        }
+      }
+
+      @media(min-width: 960px) {
+
+        #content.neve-main .container .alignfull>[class*="__inner-container"],
+        #content.neve-main .container .alignwide>[class*="__inner-container"] {
+          max-width: 915px;
+        }
+
+        #content.neve-main>.container>.row>.col {
+          max-width: 70%;
+        }
+
+        body:not(.neve-off-canvas) #content.neve-main>.container>.row>.nv-sidebar-wrap,
+        body:not(.neve-off-canvas) #content.neve-main>.container>.row>.nv-sidebar-wrap.shop-sidebar {
+          max-width: 30%;
+        }
+      }
+    </style>
+    <style type="text/css" id="wp-custom-css">
+      header .site-title {
+        font-size: 50px;
+        font-weight: 900;
+        /*margin-top: 25px;*/
+        margin-bottom: -25px;
+        /*color: #804040;
+	font-style: italic;*/
+      }
+
+      .updates-list {
+        padding-left: 30px;
+        margin-bottom: -40px;
+        line-height: 0.9em;
+
+        a {
+          color: blueviolet;
+        }
+      }
+
+      .updates-list-lower-separator {
+        margin-top: -150px;
+        margin-bottom: 0px;
+        padding-top: 30px;
+      }
+
+      .updates-title {
+        margin-top: -14px;
+      }
+
+      /*For all links*/
+      a {
+        text-decoration: none;
+      }
+
+      /*
+a:hover {
+	font-weight: 600;
+}
+*/
+      /*This is to agjust the left margin of the home page to be consistent with other pages.*/
+      .page-id-78 .nv-single-page-wrap {
+        margin-left: 34px;
+      }
+
+      /*Line spacing between PC committee lists*/
+      .pc-committee-list-spacing {
+        line-height: 1.2em;
+      }
+
+      /*Line spacing between org committee lists*/
+      .org-committee-list-spacing {
+        line-height: 2em;
+      }
+
+      /*Line spacing between workshop lists*/
+      .workshops-list-spacing {
+        margin-bottom: 14px;
+        /*line-height: -1.5em;*/
+      }
+
+      /*Workshops link color*/
+      .workshops-list-spacing a {
+        color: #2799E8;
+        /*color: #9400D3*/
+        /*text-decoration: none;*/
+      }
+
+      .workshops-list-spacing a:hover {
+        /*color: blue;*/
+        font-weight: 700;
+      }
+
+      /*To remove table borders*/
+      .pc-table table,
+      th,
+      td,
+      tr {
+        border: none !important;
+      }
+
+      .pc-table {
+        margin-top: -8px;
+        margin-left: -8px;
+      }
+
+      /*For mobile version*/
+      @media only screen and (max-width: 769px) {
+        header .site-title {
+          font-size: 42px;
+          /*text-align: center;*/
+          font-weight: 900;
+          /*margin-top: 25px;*/
+          margin-bottom: -25px;
+          /*color: #804040;
+	font-style: italic;*/
+        }
+      }
+
+      /*Title and logo*/
+      .title-with-logo {
+        margin-bottom: 20px;
+      }
+
+      /* To add site tagline with custome size. In this case, we need to delete the tagline added via the site setting.*/
+      header .site-title:after {
+        content: "Virtual | June - September, 2024";
+        /*content: "Singapore";*/
+        display: block;
+        font-size: 12px;
+        color: #804040;
+        /*text-transform:none;*/
+        margin-top: -6px;
+        margin-left: 4px;
+        margin-bottom: 20px;
+        padding: 0px;
+      }
+
+      /*To specify margins of the page titles*/
+      .nv-page-title-wrap .nv-page-title {
+        margin-top: -25px;
+        margin-bottom: -25px;
+        /*color: #1F1195;*/
+        color: #2f5aae;
+        font-size: 12px;
+      }
+
+      /*Specifying the size and weight of h1.*/
+      h1 {
+        font-size: 30px;
+        font-weight: 900;
+      }
+
+      /*Specifying font size of menu items.*/
+      li.menu-item a {
+        font-size: 15px;
+      }
+
+      /*Specifying font size and padding of sub-menu items.*/
+      ul.sub-menu li.menu-item a {
+        font-size: 15px;
+        padding: 5px;
+      }
+
+      /*This is when hovering the parent menu item*/
+      nav ul li:hover ul li a {
+        background-color: #EEE9E9;
+      }
+
+      /*This is when hovering the submenu items*/
+      nav ul li:hover ul li a:hover {
+        /*color:yellow;*/
+        /*background-color:black;*/
+        /*background-color: rgba(128,64,0,1);*/
+      }
+
+      /*To specify color of links.
+a:link {
+  color: cyan;
+}
+*/
+      /*
+a {
+	color: #1bb0ce;
+}
+*/
+      .site-footer a:link {
+        color: cyan;
+      }
+
+      .site-footer a:hover {
+        /*color: blue;*/
+        font-weight: 500;
+      }
+
+      .site-footer {
+        margin-bottom: -15px;
+        margin-left: -5px;
+      }
+
+      .footer-two {
+        margin-left: -35px;
+        margin-right: -10px;
+        padding: 0px;
+      }
+
+      /*For the mobile version */
+      @media only screen and (max-width: 769px) {
+        .footer-two {
+          margin-left: 0px;
+          margin-right: -10px;
+          padding: 0px;
+        }
+      }
+
+      /*The banner section*/
+      /*for Desktop version*/
+      @media only screen and (min-width: 770px) {
+        .nv-html-content:after {
+          content: "AEGIS 2024 | June - September, Virtual";
+          font-family: Verdana, sans-serif;
+          font-size: 40px;
+          text-align: center;
+          font-weight: 900;
+          background-color: #42413cad !important;
+          border-radius: 10px;
+          padding: 12px 10px 15px 10px;
+          margin-top: -30px;
+          margin-left: -70px;
+          display: flow-root;
+        }
+      }
+
+      /*For mobile version*/
+      @media only screen and (max-width: 769px) {
+        .nv-html-content:after {
+          font-family: Verdana, sans-serif;
+          font-size: 34px;
+          text-align: center;
+          font-weight: 900;
+          background-color: #42413cad !important;
+          border-radius: 10px;
+          padding: 10px;
+          margin-top: -70px;
+          margin-left: -6px;
+          display: flow-root;
+          /*word-wrap: break-word;*/
+          content: "ACM ASIACCS 2024 \a\a 1 - 5 July, Singapore";
+          white-space: pre;
+        }
+      }
+
+      /*To add a vertical line separater between menu items.*/
+      li+li {
+        /*border-left: 1px solid #000000*/
+        /*
+	border-right: 1px solid #c4c4c4;
+	display: inline-block;
+	float: left;*/
+      }
+
+      /*To specify size of the separater*/
+      .wp-block-separator {
+        border-bottom: 0;
+        border-top: 1px solid #05bbf8;
+      }
+
+      /*This is to reduce the bottom and top space between blocks in the "Organization" page*/
+      .add-remove-bottom-space {
+        margin-bottom: 0;
+        margin-top: 0;
+        /*padding-bottom: 0;*/
+      }
+
+      /*To adjust the line space of the steering committee.*/
+      /*
+.steering-committee-padding {
+	line-height: 2;
+}
+*/
+      /*This is to reduce the bottom and top space between blocks in the "Steering Committee" page*/
+      .manage-space-steering-committee {
+        margin-bottom: -20px;
+        /*margin-top: -10px;*/
+        /*padding-bottom: -10px;*/
+      }
+
+      /*Custom bottom margines for some blocks.*/
+      .custom-block-margins-with-bullets {
+        margin-bottom: -20px;
+      }
+
+      .custom-block-margins-without-bullets {
+        margin-bottom: 8px;
+      }
+
+      /*Margins of the sponsorship table.*/
+      .sponsorship-table-margins {
+        margin-top: 4px;
+        margin-bottom: 0px;
+      }
+
+      /*This is to manage the margins of important dates on the sidebar.*/
+      .sidebar-important-dates-1 {
+        margin-bottom: -25px;
+        margin-top: -25px;
+      }
+
+      .sidebar-important-dates-2 {
+        margin-bottom: -25px;
+        margin-top: -45px;
+      }
+
+      .updates-sidebar {
+        margin-bottom: -25px;
+      }
+
+      /*This solves Tweeter's width issue for mobile devices*/
+      .twitter-timeline-rendered {
+        width: 100% !important;
+      }
+    </style>
+    <script charset="utf-8" src="https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a class="neve-skip-link show-on-focus" href="#content"> Skip to content </a>
+        <div id="header-grid" class="hfg_header site-header">
+          <div class="header--row header-top hide-on-mobile hide-on-tablet layout-fullwidth header--row" data-row-id="top" data-show-on="desktop">
+            <div class="header--row-inner header-top-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_top">
+                  <div class="hfg-slot left">
+                    <div class="builder-item desktop-left">
+                      <div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+                        <div class="site-logo">
+                          <a class="brand" href="https://asiaccs2024.sutd.edu.sg/" title="← AEGIS 2024" aria-label="AEGIS 2024" rel="home">
+                            <div class="title-with-logo">
+                              <div class="nv-title-tagline-wrap">
+                                <p class="site-title">AEGIS 2024</p>
+                                <small></small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="header--row header-main hide-on-mobile hide-on-tablet layout-full-contained nv-navbar has-center header--row" data-row-id="main" data-show-on="desktop">
+            <div class="header--row-inner header-main-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_main">
+                  <div class="hfg-slot left"></div>
+                  <div class="hfg-slot center">
+                    <div class="builder-item has-nav">
+                      <div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+                        <div class="nv-nav-wrap">
+                          <div role="navigation" class="nav-menu-primary style-border-bottom m-style" aria-label="Primary Menu">
+                            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                              <div class="mega-menu-toggle">
+                                <div class="mega-toggle-blocks-left">
+                                  <div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1" tabindex="0">
+                                    <span class="mega-toggle-label" role="button" aria-expanded="false">
+                                      <span class="mega-toggle-label-closed"></span>
+                                      <span class="mega-toggle-label-open"></span>
+                                    </span>
+                                  </div>
+                                </div>
+                                <div class="mega-toggle-blocks-center"></div>
+                                <div class="mega-toggle-blocks-right"></div>
+                              </div>
+                              <ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide_left" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-78 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-124" id="mega-menu-item-124">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/" aria-current="page" tabindex="0">Home</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-499" id="mega-menu-item-499">
+                                  <a class="mega-menu-link" href="http://jianying.space/asiaccs/" tabindex="0">AsiaCCS</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1471" id="mega-menu-item-1471">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Calls <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-136" id="mega-menu-item-136">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/dates/">Important Dates</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-134" id="mega-menu-item-134">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/cfp/">Call for Papers</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1042" id="mega-menu-item-1042">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/call-for-posters/">Call for Posters</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-135" id="mega-menu-item-135">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/call-for-workshops/">Call for Workshops</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-128" id="mega-menu-item-128">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/workshops/" tabindex="0">Workshops</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1472" id="mega-menu-item-1472">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Committee <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-125" id="mega-menu-item-125">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/organization/">Organization</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-126" id="mega-menu-item-126">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/program-committee/">Program Committee</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-127" id="mega-menu-item-127">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/steering-committee/">Steering Committee</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-3720" id="mega-menu-item-3720">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/keynotes/" tabindex="0">Keynotes</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-3316" id="mega-menu-item-3316">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Accepted Papers <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3445" id="mega-menu-item-3445">
+                                      <a class="mega-menu-link" href="/round-1-papers/">Round 1 Papers</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-133" id="mega-menu-item-133">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/program/" tabindex="0">Program</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-1276" id="mega-menu-item-1276">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/sponsorship/" tabindex="0">Sponsorship</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1473" id="mega-menu-item-1473">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Participation <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-137" id="mega-menu-item-137">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/venue/">Conference Venue</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-138" id="mega-menu-item-138">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/registration/">Registration</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3684" id="mega-menu-item-3684">
+                                      <a class="mega-menu-link" href="/visa-letter/">Visa Letter</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3683" id="mega-menu-item-3683">
+                                      <a class="mega-menu-link" href="/travel-guide/">Travel Guide</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="header--row header-bottom hide-on-mobile hide-on-tablet layout-full-contained has-center header--row" data-row-id="bottom" data-show-on="desktop">
+            <div class="header--row-inner header-bottom-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_bottom">
+                  <div class="hfg-slot left"></div>
+                  <div class="hfg-slot center">
+                    <div class="builder-item desktop-left">
+                      <div class="item--inner builder-item--custom_html" data-section="custom_html" data-item-id="custom_html">
+                        <div class="nv-html-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header--row header-top hide-on-desktop layout-fullwidth header--row" data-row-id="top" data-show-on="mobile">
+            <div class="header--row-inner header-top-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_top">
+                  <div class="hfg-slot left">
+                    <div class="builder-item mobile-left tablet-right">
+                      <div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+                        <div class="site-logo">
+                          <a class="brand" href="https://asiaccs2024.sutd.edu.sg/" title="← ACM ASIACCS 2024" aria-label="ACM ASIACCS 2024" rel="home">
+                            <div class="title-with-logo">
+                              <img width="300" height="300" src="https://asiaccs2024.sutd.edu.sg/wp-content/uploads/2022/11/ACM-Logo.png" class="neve-site-logo skip-lazy" alt="" data-variant="logo" decoding="async" srcset="https://asiaccs2024.sutd.edu.sg/wp-content/uploads/2022/11/ACM-Logo.png 300w, https://asiaccs2024.sutd.edu.sg/wp-content/uploads/2022/11/ACM-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px">
+                              <div class="nv-title-tagline-wrap">
+                                <p class="site-title">ACM ASIACCS 2024</p>
+                                <small></small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="header--row header-main hide-on-desktop layout-full-contained nv-navbar header--row" data-row-id="main" data-show-on="mobile">
+            <div class="header--row-inner header-main-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_main">
+                  <div class="hfg-slot left">
+                    <div class="builder-item has-nav">
+                      <div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+                        <div class="nv-nav-wrap">
+                          <div role="navigation" class="nav-menu-primary style-border-bottom m-style" aria-label="Primary Menu">
+                            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                              <div class="mega-menu-toggle">
+                                <div class="mega-toggle-blocks-left">
+                                  <div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1" tabindex="0">
+                                    <span class="mega-toggle-label" role="button" aria-expanded="false">
+                                      <span class="mega-toggle-label-closed"></span>
+                                      <span class="mega-toggle-label-open"></span>
+                                    </span>
+                                  </div>
+                                </div>
+                                <div class="mega-toggle-blocks-center"></div>
+                                <div class="mega-toggle-blocks-right"></div>
+                              </div>
+                              <ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide_left" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-78 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-124" id="mega-menu-item-124">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/" aria-current="page" tabindex="0">Home</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-499" id="mega-menu-item-499">
+                                  <a class="mega-menu-link" href="http://jianying.space/asiaccs/" tabindex="0">AsiaCCS</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1471" id="mega-menu-item-1471">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Calls <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-136" id="mega-menu-item-136">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/dates/">Important Dates</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-134" id="mega-menu-item-134">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/cfp/">Call for Papers</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1042" id="mega-menu-item-1042">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/call-for-posters/">Call for Posters</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-135" id="mega-menu-item-135">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/call-for-workshops/">Call for Workshops</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-128" id="mega-menu-item-128">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/workshops/" tabindex="0">Workshops</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1472" id="mega-menu-item-1472">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Committee <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-125" id="mega-menu-item-125">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/organization/">Organization</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-126" id="mega-menu-item-126">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/program-committee/">Program Committee</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-127" id="mega-menu-item-127">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/steering-committee/">Steering Committee</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-3720" id="mega-menu-item-3720">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/keynotes/" tabindex="0">Keynotes</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-3316" id="mega-menu-item-3316">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Accepted Papers <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3445" id="mega-menu-item-3445">
+                                      <a class="mega-menu-link" href="/round-1-papers/">Round 1 Papers</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-133" id="mega-menu-item-133">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/program/" tabindex="0">Program</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-1276" id="mega-menu-item-1276">
+                                  <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/sponsorship/" tabindex="0">Sponsorship</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1473" id="mega-menu-item-1473">
+                                  <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Participation <span class="mega-indicator" data-has-click-event="true"></span>
+                                  </a>
+                                  <ul class="mega-sub-menu">
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-137" id="mega-menu-item-137">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/venue/">Conference Venue</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-138" id="mega-menu-item-138">
+                                      <a class="mega-menu-link" href="https://asiaccs2024.sutd.edu.sg/registration/">Registration</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3684" id="mega-menu-item-3684">
+                                      <a class="mega-menu-link" href="/visa-letter/">Visa Letter</a>
+                                    </li>
+                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-3683" id="mega-menu-item-3683">
+                                      <a class="mega-menu-link" href="/travel-guide/">Travel Guide</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="header--row header-bottom hide-on-desktop layout-full-contained has-center header--row" data-row-id="bottom" data-show-on="mobile">
+            <div class="header--row-inner header-bottom-inner">
+              <div class="container">
+                <div class="row row--wrapper" data-section="hfg_header_layout_bottom">
+                  <div class="hfg-slot left"></div>
+                  <div class="hfg-slot center">
+                    <div class="builder-item tablet-left mobile-left">
+                      <div class="item--inner builder-item--custom_html" data-section="custom_html" data-item-id="custom_html">
+                        <div class="nv-html-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <style>
+        .is-menu-sidebar .header-menu-sidebar {
+          visibility: visible;
+        }
+
+        .is-menu-sidebar.menu_sidebar_slide_left .header-menu-sidebar {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }
+
+        .is-menu-sidebar.menu_sidebar_slide_right .header-menu-sidebar {
+          transform: translate3d(0, 0, 0);
+          right: 0;
+        }
+
+        .is-menu-sidebar.menu_sidebar_pull_right .header-menu-sidebar,
+        .is-menu-sidebar.menu_sidebar_pull_left .header-menu-sidebar {
+          transform: translateX(0);
+        }
+
+        .is-menu-sidebar.menu_sidebar_dropdown .header-menu-sidebar {
+          height: auto;
+        }
+
+        .is-menu-sidebar.menu_sidebar_dropdown .header-menu-sidebar-inner {
+          max-height: 400px;
+          padding: 20px 0;
+        }
+
+        .is-menu-sidebar.menu_sidebar_full_canvas .header-menu-sidebar {
+          opacity: 1;
+        }
+
+        .header-menu-sidebar .menu-item-nav-search {
+          pointer-events: none;
+        }
+
+        .header-menu-sidebar .menu-item-nav-search .is-menu-sidebar & {
+          pointer-events: unset;
+        }
+
+        .nav-ul li:focus-within .wrap.active+.sub-menu {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        .nav-ul li.neve-mega-menu:focus-within .wrap.active+.sub-menu {
+          display: grid;
+        }
+
+        .nav-ul li>.wrap {
+          display: flex;
+          align-items: center;
+          position: relative;
+          padding: 0 4px;
+        }
+
+        .nav-ul:not(.menu-mobile):not(.neve-mega-menu)>li>.wrap>a {
+          padding-top: 1px
+        }
+      </style>
+      <main id="content" class="neve-main">
+        <div class="container single-page-container">
+          <div class="row">
+            <div class="nv-single-page-wrap col">
+              <div class="nv-page-title-wrap nv-big-title" style="--textalign:left;">
+                <div class="nv-page-title ">
+                  <h1>Home</h1>
+                </div>
+                <!--.nv-page-title-->
+              </div>
+              <!--.nv-page-title-wrap-->
+              <div class="nv-content-wrap entry-content">
+                <hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-default" style="background-color:#05bbf8;color:#05bbf8">
+                <p>The 19th ACM ASIA Conference on Computer and Communications Security&nbsp;( <strong>ACM ASIACCS 2024</strong>) will be held in <strong>Singapore</strong> from the <strong>1st to 5th of July, 2024</strong>. </p>
+                <p>Building on the success of ACM Conference on Computer and Communications Security (CCS), the ACM Special Interest Group on Security, Audit, and Control (SIGSAC) formally established the annual ACM Asia Conference on Computer and Communications Security (ASIACCS). The inaugural ASIACCS was held in Taipei (2006). Since then ASIACCS has been held in Singapore (2007), Tokyo (2008), Sydney (2009), Beijing (2010), Hong Kong (2011), Seoul (2012), Hangzhou (2013), Kyoto (2014), Singapore (2015), Xi’an (2016), Abu Dhabi (2017), Songdo (2018), Auckland (2019), Taipei (2020, virtual), Hong Kong (2021, virtual), Nagasaki (2022, hybrid) and Melbourne (2023).</p>
+                <hr class="wp-block-separator has-alpha-channel-opacity">
+                <p class="updates-title custom-block-margins-with-bullets has-text-color has-link-color wp-elements-7b4974813fe2835455a4f02f3fcf0bae" style="color:#1a4cb1;font-size:20px">
+                  <strong>Latest Updates</strong>
+                </p>
+                <ul class="updates-list">
+                  <li>
+                    <strong>February 19, 2024</strong>: <a href="https://asiaccs2024.sutd.edu.sg/keynotes/" target="_blank" rel="noreferrer noopener">ASIACCS’24 keynote speakers are confirmed!</a>
+                  </li>
+                  <li>
+                    <strong>February 5, 2024</strong>: <a href="https://asiaccs2024.sutd.edu.sg/call-for-posters/" target="_blank" rel="noreferrer noopener"> Poster proposal submission deadline is approaching</a>!
+                  </li>
+                  <li>
+                    <strong>February 5, 2024</strong>: <a href="https://asiaccs2024.sutd.edu.sg/workshops/" target="_blank" rel="noreferrer noopener">Submission deadlines for Workshops are approaching</a>!
+                  </li>
+                  <li>
+                    <strong>January 30, 2024</strong>: <a href="https://asiaccs2024.sutd.edu.sg/round-1-papers/" target="_blank" rel="noreferrer noopener">Papers accepted in the first round are released now</a>!
+                  </li>
+                </ul>
+                <hr class="wp-block-separator has-alpha-channel-opacity updates-list-lower-separator">
+                <div style="height:19px" aria-hidden="true" class="wp-block-spacer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--/.neve-main-->
+      <footer class="site-footer" id="site-footer">
+        <div class="hfg_footer">
+          <div class="footer--row footer-top layout-fullwidth" id="cb-row--footer-top" data-row-id="top" data-show-on="desktop">
+            <div class="footer--row-inner footer-top-inner footer-content-wrap">
+              <div class="container">
+                <div class="hfg-grid nv-footer-content hfg-grid-top row--wrapper row " data-section="hfg_footer_layout_top">
+                  <div class="hfg-slot left">
+                    <div class="builder-item desktop-left tablet-left mobile-left">
+                      <div class="item--inner builder-item--footer-one-widgets" data-section="neve_sidebar-widgets-footer-one-widgets" data-item-id="footer-one-widgets">
+                        <div class="widget-area">
+                          <div id="block-55" class="widget widget_block widget_text">
+                            <p class="has-text-align-left has-nv-light-bg-color has-text-color" style="font-size:15px">
+                              <strong>© 2022 - 2024 ACM ASIACCS 2024. All rights reserved.</strong>
+                              <br>General Chairs: <a href="mailto:asiaccs24-gchairs@sutd.edu.sg">asiaccs24-gchairs@sutd.edu.sg</a> (for general enqueries) <br>PC Chairs:&nbsp; <a href="mailto:dbgao@smu.edu.sg">dbgao@smu.edu.sg</a> and <a href="mailto:alacarde@ucsc.edu">alacarde@ucsc.edu</a> (for submission matters) <br>Workshops: <a href="mailto:asiaccs24-workshops@sutd.edu.sg">asiaccs24-workshops@sutd.edu.sg</a> (for workshop related enqueries)
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot c-left">
+                    <div class="builder-item desktop-left tablet-left mobile-left">
+                      <div class="item--inner builder-item--footer-two-widgets" data-section="neve_sidebar-widgets-footer-two-widgets" data-item-id="footer-two-widgets">
+                        <div class="widget-area">
+                          <div id="block-60" class="widget widget_block widget_text">
+                            <p class="footer-two has-nv-light-bg-color has-text-color">Posters: <a href="mailto:asiaccs24-posters@sutd.edu.sg">asiaccs24-posters@sutd.edu.sg</a> (for poster related enqueries) <br>Registration: <a href="mailto:asiaccs24-registration@sutd.edu.sg">asiaccs24-registration@sutd.edu.sg</a> (for registration related enqueries) <br>Publication: <a href="mailto:daniel.reijsbergen@ntu.edu.sg">daniel.reijsbergen@ntu.edu.sg</a> (for publication related enqueries) </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer--row footer-bottom layout-full-contained" id="cb-row--footer-bottom" data-row-id="bottom" data-show-on="desktop">
+            <div class="footer--row-inner footer-bottom-inner footer-content-wrap">
+              <div class="container">
+                <div class="hfg-grid nv-footer-content hfg-grid-bottom row--wrapper row " data-section="hfg_footer_layout_bottom">
+                  <div class="hfg-slot left">
+                    <div class="builder-item">
+                      <div class="item--inner">
+                        <div class="component-wrap">
+                          <div></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hfg-slot c-left"></div>
+                  <div class="hfg-slot center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe>
+  </body>
+</html>

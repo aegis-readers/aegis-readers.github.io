@@ -85,9 +85,9 @@ table {
   font-family: JostWGHT;
   src: local("JostWGHT"), url("/font/JostWGHT.ttf"); }
 
-@font-face {
+/* @font-face {
   font-family: 'JostWGHT';
-  src: local("JostWGHT"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); }
+  src: local("JostWGHT"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); } */
 
 
 header {
