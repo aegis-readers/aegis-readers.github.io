@@ -43,25 +43,22 @@
         <h3>Important News:</h3>
         <p>We have finalized the presenters this year, featuring 12 talks in four sessions. The topics of the presentation will be finalized in mid June. Looking forward to see you in AEGIS 2024!</p>
         <h3>Upcoming Event:</h3>
-        <p>For the first talk, we invited Xinyue Shen from CISPA to talk about will be hosted at 11:00 am EDT online in <a href="https://osu.zoom.us/j/93728436179?pwd=K7MMHsaj0Rj83mueKbxpsENy1JYexJ.1">this link</a>. Welcome to drop in!</p>
+        <p>We invited Qifan Zhang from UC Irvine to talk about DNS Resolver vulnerability discovery. The talk will be hosted at 22:00 am EDT on 11th July in <a href="https://osu.zoom.us/j/98361871322?pwd=gF5nasdK0sbolKvPaSb3oOAPIuw9FU.1">this link</a>. Welcome to drop in!</p>
         <div class="recent-post">
-          <a href="https://osu.zoom.us/j/93728436179?pwd=K7MMHsaj0Rj83mueKbxpsENy1JYexJ.1">
+          <a href="https://osu.zoom.us/j/98361871322?pwd=gF5nasdK0sbolKvPaSb3oOAPIuw9FU.1">
           <div class="recent-info">
             <span class="categories"><object>Session 1: Machine Learning and Large Language Model</object></span>
-            <time>Date: 2024-06-22 11:00 a.m. EDT</time>
+            <time>Date: 2024-07-13 10:00 p.m. EDT</time>
           </div>
-          <h3 class="recent-title">Emerging Attacks in the Era of Generative AI</h3>
-          <span class="read-more">Xinyue Shen, CISPA</span>
+          <h3 class="recent-title">ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing</h3>
+          <span class="read-more">Qifan Zhang, UC Irvine</span>
         </a>
         </div>
         <h5>Abstract:</h5>
         <!-- <p>The abstract of her talk is shown below:</p> -->
-        <p>Generative AI like ChatGPT and StableDiffusion are transforming the way we interact with technology, bringing new opportunities in diverse fields. Yet, these advancements come with new security concerns and vulnerabilities.</p>
-        <p>In this talk, we will introduce two emerging attacks against Generative AI.</p>
-        <p>Jailbreak attack is currently the major attack vector to bypass LLMs' safeguards and elicit harmful content.</p>
-        <p>In this presentation, we will show the latest research on in-the-wild jailbreak prompts, including the current jailbreak landscape, evolving trends, and universal jailbreak prompts with extremely high attack success rates (> 0.95).</p>
-        <p>Next, we will introduce prompt stealing attack, a novel attack under the ecosystem established by the text-to-image generation models. </p>
-        <p>Different from previous data breach attacks, by acquiring information showcased on the website, prompt stealing attacks can leak all prompts in a prompt marketplace in minutes, jeopardizing their business models and the intellectual property of prompt engineers.</p>
+        <p>Domain Name System (DNS) is a critical component of the Internet. DNS resolvers, which act as the cache between DNS clients and DNS nameservers, are the central piece of the DNS infrastructure, essential to the scalability of DNS. However, finding the resolver vulnerabilities is non-trivial, and this problem is not well addressed by the existing tools. To list a few reasons, first, most of the known resolver vulnerabilities are non-crash bugs that cannot be directly detected by the existing oracles (or sanitizers). Second, there lacks rigorous specifications to be used as references to classify a test case as a resolver bug. Third, DNS resolvers are stateful, and stateful fuzzing is still challenging due to the large input space.</p>
+
+        <p>In this paper, we present a new fuzzing system termed ResolverFuzz to address the aforementioned challenges related to DNS resolvers, with a suite of new techniques being developed. First, ResolverFuzz performs constrained stateful fuzzing by focusing on the short query-response sequence, which has been demonstrated as the most effective way to find resolver bugs, based on our study of the published DNS CVEs. Second, to generate test cases that are more likely to trigger resolver bugs, we combine probabilistic context-free grammar (PCFG) based input generation with byte-level mutation for both queries and responses. Third, we leverage differential testing and clustering to identify non-crash bugs like cache poisoning bugs. We evaluated ResolverFuzz against 6 mainstream DNS software under 4 resolver modes. Overall, we identify 23 vulnerabilities that can result in cache poisoning, resource consumption, and crash attacks. After responsible disclosure, 19 of them have been confirmed or fixed, and 15 CVE numbers have been assigned.</p>
         <h3>Sessions:</h3> 
       
         <ul>
