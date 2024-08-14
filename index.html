@@ -47,18 +47,18 @@
         <div class="recent-post">
           <a href="https://osu.zoom.us/j/98361871322?pwd=gF5nasdK0sbolKvPaSb3oOAPIuw9FU.1">
           <div class="recent-info">
-            <span class="categories"><object>Session 3: Network Security</object></span>
-            <time>Date: 2024-07-21 11:00 a.m. EDT</time>
+            <span class="categories"><object>Session 4: Invited Keynotes from Database and Software Engineering</object></span>
+            <time>Date: 2024-08-18 22:00 p.m. EDT</time>
           </div>
-          <h3 class="recent-title">Rethinking the Security Threats of Stale DNS Glue Records</h3>
-          <span class="read-more">Yunyi Zhang, Tsinghua University</span>
+          <h3 class="recent-title">Your Code Secret Belongs to Me: Neural Code Completion Tools Can Memorize Hard-Coded Credentials</h3>
+          <span class="read-more">Yichen Li, CUHK</span>
         </a>
         </div>
-        <!-- <h5>Abstract:</h5> -->
-        <!-- <p>The abstract of her talk is shown below:</p> -->
-        <!-- <p>Domain Name System (DNS) is a critical component of the Internet. DNS resolvers, which act as the cache between DNS clients and DNS nameservers, are the central piece of the DNS infrastructure, essential to the scalability of DNS. However, finding the resolver vulnerabilities is non-trivial, and this problem is not well addressed by the existing tools. To list a few reasons, first, most of the known resolver vulnerabilities are non-crash bugs that cannot be directly detected by the existing oracles (or sanitizers). Second, there lacks rigorous specifications to be used as references to classify a test case as a resolver bug. Third, DNS resolvers are stateful, and stateful fuzzing is still challenging due to the large input space.</p> -->
-
-        <!-- <p>In this paper, we present a new fuzzing system termed ResolverFuzz to address the aforementioned challenges related to DNS resolvers, with a suite of new techniques being developed. First, ResolverFuzz performs constrained stateful fuzzing by focusing on the short query-response sequence, which has been demonstrated as the most effective way to find resolver bugs, based on our study of the published DNS CVEs. Second, to generate test cases that are more likely to trigger resolver bugs, we combine probabilistic context-free grammar (PCFG) based input generation with byte-level mutation for both queries and responses. Third, we leverage differential testing and clustering to identify non-crash bugs like cache poisoning bugs. We evaluated ResolverFuzz against 6 mainstream DNS software under 4 resolver modes. Overall, we identify 23 vulnerabilities that can result in cache poisoning, resource consumption, and crash attacks. After responsible disclosure, 19 of them have been confirmed or fixed, and 15 CVE numbers have been assigned.</p> -->
+        <h5>Abstract:</h5>
+        <p>The abstract of her talk is shown below:</p>
+        <p>Neural Code Completion Tools (NCCTs) have reshaped the eld of software engineering, which are built upon the language models and can accurately suggest contextualized code snippets. However, language models may emit the training data verbatim during inference with appropriate prompts. This memorization property raises privacy concerns of NCCTs about hard-coded credential leakage, leading to unauthorized access to applications, systems, or networks. Therefore, to answer whether NCCTs will emit the hard-coded credential, we propose an evaluation tool called Hard-coded Credential Revealer (HCR). </p>
+        <p>HCR constructs test prompts based on GitHub code les with credentials to reveal the memorization phenomenon of NCCTs. Then, HCR designs four filters to filter out ill-formatted credentials. Finally, HCR directly checks the validity of a set of non-sensitive credentials. </p>
+        <p>We apply HCR to evaluate three representative types of NCCTs: Commercial NCCTs, open-source models, and chatbots with code completion capability. Our experimental results show that NCCTs can not only return the precise piece of their training data but also inadvertently leak additional secret strings. Notably, two valid credentials were identied during our experiments. Therefore, HCR raises a severe privacy concern about the potential leakage of hard-coded credentials in the training data of commercial NCCTs.</p>
         <h3>Sessions:</h3> 
       
         <ul>
